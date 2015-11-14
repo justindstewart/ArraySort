@@ -1,0 +1,403 @@
+justin@Pat:~/School/CPSC 240/Assignment 4$ ./array.out
+This driver program will start the main assembly program of Assignment 4.
+Welcome to Array Processing programmed by Justin Stewart.
+
+Please enter the quadword floats for storange in an array.:
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 3.0
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 9.0
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 1.0
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 2.0
+Do you have data to enter into the array (Y or N)? n
+
+Thank you. This is the array:
+Index		Physical Address		Hex Value			Decimal Value
+ 0		00000000006022c4		0x4008000000000000		3.00000000000
+ 1		00000000006022cc		0x4022000000000000		9.00000000000
+ 2		00000000006022d4		0x3ff0000000000000		1.00000000000
+ 3		00000000006022dc		0x4000000000000000		2.00000000000
+
+Next the array will be sorted by pointers.
+
+The array after sorting by pointers is:
+Index		Physical Address		Hex Value			Decimal Value
+ 2		00000000006022d4		0x3ff0000000000000		1.00000000000
+ 3		00000000006022dc		0x4000000000000000		2.00000000000
+ 0		00000000006022c4		0x4008000000000000		3.00000000000
+ 1		00000000006022cc		0x4022000000000000		9.00000000000
+
+The array without sorting by pointers is still present:
+Index		Physical Address		Hex Value			Decimal Value
+ 0		00000000006022c4		0x4008000000000000		3.00000000000
+ 1		00000000006022cc		0x4022000000000000		9.00000000000
+ 2		00000000006022d4		0x3ff0000000000000		1.00000000000
+ 3		00000000006022dc		0x4000000000000000		2.00000000000
+
+Without knowing the purpose the driver received this array:
+3.00000000000
+9.00000000000
+1.00000000000
+2.00000000000
+
+The driver program will now return 0 to the operating system.  Have a nice day.
+justin@Pat:~/School/CPSC 240/Assignment 4$ ./array.out
+This driver program will start the main assembly program of Assignment 4.
+Welcome to Array Processing programmed by Justin Stewart.
+
+Please enter the quadword floats for storange in an array.:
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 5.5
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 1.5
+Do you have data to enter into the array (Y or N)? n
+
+Thank you. This is the array:
+Index		Physical Address		Hex Value			Decimal Value
+ 0		00000000006022c4		0x4016000000000000		5.50000000000
+ 1		00000000006022cc		0x3ff8000000000000		1.50000000000
+
+Next the array will be sorted by pointers.
+
+The array after sorting by pointers is:
+Index		Physical Address		Hex Value			Decimal Value
+ 1		00000000006022cc		0x3ff8000000000000		1.50000000000
+ 0		00000000006022c4		0x4016000000000000		5.50000000000
+
+The array without sorting by pointers is still present:
+Index		Physical Address		Hex Value			Decimal Value
+ 0		00000000006022c4		0x4016000000000000		5.50000000000
+ 1		00000000006022cc		0x3ff8000000000000		1.50000000000
+
+Without knowing the purpose the driver received this array:
+5.50000000000
+1.50000000000
+
+The driver program will now return 0 to the operating system.  Have a nice day.
+justin@Pat:~/School/CPSC 240/Assignment 4$ ./array.out
+This driver program will start the main assembly program of Assignment 4.
+Welcome to Array Processing programmed by Justin Stewart.
+
+Please enter the quadword floats for storange in an array.:
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 1.8
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 2.6
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 4.3
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: -5.1
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 8.7
+Do you have data to enter into the array (Y or N)? n
+
+Thank you. This is the array:
+Index		Physical Address		Hex Value			Decimal Value
+ 0		00000000006022c4		0x3ffccccccccccccd		1.80000000000
+ 1		00000000006022cc		0x4004cccccccccccd		2.60000000000
+ 2		00000000006022d4		0x4011333333333333		4.30000000000
+ 3		00000000006022dc		0xc014666666666666		-5.10000000000
+ 4		00000000006022e4		0x4021666666666666		8.70000000000
+
+Next the array will be sorted by pointers.
+
+The array after sorting by pointers is:
+Index		Physical Address		Hex Value			Decimal Value
+ 3		00000000006022dc		0xc014666666666666		-5.10000000000
+ 0		00000000006022c4		0x3ffccccccccccccd		1.80000000000
+ 1		00000000006022cc		0x4004cccccccccccd		2.60000000000
+ 2		00000000006022d4		0x4011333333333333		4.30000000000
+ 4		00000000006022e4		0x4021666666666666		8.70000000000
+
+The array without sorting by pointers is still present:
+Index		Physical Address		Hex Value			Decimal Value
+ 0		00000000006022c4		0x3ffccccccccccccd		1.80000000000
+ 1		00000000006022cc		0x4004cccccccccccd		2.60000000000
+ 2		00000000006022d4		0x4011333333333333		4.30000000000
+ 3		00000000006022dc		0xc014666666666666		-5.10000000000
+ 4		00000000006022e4		0x4021666666666666		8.70000000000
+
+Without knowing the purpose the driver received this array:
+1.80000000000
+2.60000000000
+4.30000000000
+-5.10000000000
+8.70000000000
+
+The driver program will now return 0 to the operating system.  Have a nice day.
+justin@Pat:~/School/CPSC 240/Assignment 4$ ./array.out
+This driver program will start the main assembly program of Assignment 4.
+Welcome to Array Processing programmed by Justin Stewart.
+
+Please enter the quadword floats for storange in an array.:
+Do you have data to enter into the array (Y or N)? n
+
+Thank you. This is the array:
+Index		Physical Address		Hex Value			Decimal Value
+
+Next the array will be sorted by pointers.
+
+The array after sorting by pointers is:
+Index		Physical Address		Hex Value			Decimal Value
+
+The array without sorting by pointers is still present:
+Index		Physical Address		Hex Value			Decimal Value
+
+Without knowing the purpose the driver received this array:
+
+The driver program will now return 0 to the operating system.  Have a nice day.
+justin@Pat:~/School/CPSC 240/Assignment 4$ ./array.out
+This driver program will start the main assembly program of Assignment 4.
+Welcome to Array Processing programmed by Justin Stewart.
+
+Please enter the quadword floats for storange in an array.:
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 16.6
+Do you have data to enter into the array (Y or N)? n
+
+Thank you. This is the array:
+Index		Physical Address		Hex Value			Decimal Value
+ 0		00000000006022c4		0x403099999999999a		16.60000000000
+
+Next the array will be sorted by pointers.
+
+The array after sorting by pointers is:
+Index		Physical Address		Hex Value			Decimal Value
+ 0		00000000006022c4		0x403099999999999a		16.60000000000
+
+The array without sorting by pointers is still present:
+Index		Physical Address		Hex Value			Decimal Value
+ 0		00000000006022c4		0x403099999999999a		16.60000000000
+
+Without knowing the purpose the driver received this array:
+16.60000000000
+
+The driver program will now return 0 to the operating system.  Have a nice day.
+justin@Pat:~/School/CPSC 240/Assignment 4$ ./array.out
+This driver program will start the main assembly program of Assignment 4.
+Welcome to Array Processing programmed by Justin Stewart.
+
+Please enter the quadword floats for storange in an array.:
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 309.6
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 0.0
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 0.0
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 0.0
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 0.0
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 300.8
+Do you have data to enter into the array (Y or N)? n
+
+Thank you. This is the array:
+Index		Physical Address		Hex Value			Decimal Value
+ 0		00000000006022c4		0x407359999999999a		309.60000000000
+ 1		00000000006022cc		0x0000000000000000		0.00000000000
+ 2		00000000006022d4		0x0000000000000000		0.00000000000
+ 3		00000000006022dc		0x0000000000000000		0.00000000000
+ 4		00000000006022e4		0x0000000000000000		0.00000000000
+ 5		00000000006022ec		0x4072cccccccccccd		300.80000000000
+
+Next the array will be sorted by pointers.
+
+The array after sorting by pointers is:
+Index		Physical Address		Hex Value			Decimal Value
+ 1		00000000006022cc		0x0000000000000000		0.00000000000
+ 2		00000000006022d4		0x0000000000000000		0.00000000000
+ 3		00000000006022dc		0x0000000000000000		0.00000000000
+ 4		00000000006022e4		0x0000000000000000		0.00000000000
+ 5		00000000006022ec		0x4072cccccccccccd		300.80000000000
+ 0		00000000006022c4		0x407359999999999a		309.60000000000
+
+The array without sorting by pointers is still present:
+Index		Physical Address		Hex Value			Decimal Value
+ 0		00000000006022c4		0x407359999999999a		309.60000000000
+ 1		00000000006022cc		0x0000000000000000		0.00000000000
+ 2		00000000006022d4		0x0000000000000000		0.00000000000
+ 3		00000000006022dc		0x0000000000000000		0.00000000000
+ 4		00000000006022e4		0x0000000000000000		0.00000000000
+ 5		00000000006022ec		0x4072cccccccccccd		300.80000000000
+
+Without knowing the purpose the driver received this array:
+309.60000000000
+0.00000000000
+0.00000000000
+0.00000000000
+0.00000000000
+300.80000000000
+
+The driver program will now return 0 to the operating system.  Have a nice day.
+justin@Pat:~/School/CPSC 240/Assignment 4$ ./array.out
+This driver program will start the main assembly program of Assignment 4.
+Welcome to Array Processing programmed by Justin Stewart.
+
+Please enter the quadword floats for storange in an array.:
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 30000000.3
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 0.00000003
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 0.00000009
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 0.00000004
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 20000000.1
+Do you have data to enter into the array (Y or N)? n
+
+Thank you. This is the array:
+Index		Physical Address		Hex Value			Decimal Value
+ 0		00000000006022c4		0x417c9c3804cccccd		30000000.30000000075
+ 1		00000000006022cc		0x3e601b2b29a4692b		0.00000003000
+ 2		00000000006022d4		0x3e7828c0be769dc1		0.00000009000
+ 3		00000000006022dc		0x3e65798ee2308c3a		0.00000004000
+ 4		00000000006022e4		0x417312d00199999a		20000000.10000000149
+
+Next the array will be sorted by pointers.
+
+The array after sorting by pointers is:
+Index		Physical Address		Hex Value			Decimal Value
+ 1		00000000006022cc		0x3e601b2b29a4692b		0.00000003000
+ 3		00000000006022dc		0x3e65798ee2308c3a		0.00000004000
+ 2		00000000006022d4		0x3e7828c0be769dc1		0.00000009000
+ 4		00000000006022e4		0x417312d00199999a		20000000.10000000149
+ 0		00000000006022c4		0x417c9c3804cccccd		30000000.30000000075
+
+The array without sorting by pointers is still present:
+Index		Physical Address		Hex Value			Decimal Value
+ 0		00000000006022c4		0x417c9c3804cccccd		30000000.30000000075
+ 1		00000000006022cc		0x3e601b2b29a4692b		0.00000003000
+ 2		00000000006022d4		0x3e7828c0be769dc1		0.00000009000
+ 3		00000000006022dc		0x3e65798ee2308c3a		0.00000004000
+ 4		00000000006022e4		0x417312d00199999a		20000000.10000000149
+
+Without knowing the purpose the driver received this array:
+30000000.30000000075
+0.00000003000
+0.00000009000
+0.00000004000
+20000000.10000000149
+
+The driver program will now return 0 to the operating system.  Have a nice day.
+justin@Pat:~/School/CPSC 240/Assignment 4$ ./array.out
+This driver program will start the main assembly program of Assignment 4.
+Welcome to Array Processing programmed by Justin Stewart.
+
+Please enter the quadword floats for storange in an array.:
+Do you have data to enter into the array (Y or N)? Y  
+Enter the next float number: 1000000.048
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 1000000.036
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 1000000.077
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 1000000.071
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 1000000.058
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 1000000.062
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 1000000.043
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 1000000.029
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 1000000.039
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 1000000.061
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 1000000.053
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 1000000.049
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 1000000.050
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 1000000.026
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 1000000.088
+Do you have data to enter into the array (Y or N)? Y
+Enter the next float number: 1000000.033
+Do you have data to enter into the array (Y or N)? n
+
+Thank you. This is the array:
+Index		Physical Address		Hex Value			Decimal Value
+ 0		00000000006022c4		0x412e8480189374bc		1000000.04799999995
+ 1		00000000006022cc		0x412e8480126e978d		1000000.03599999996
+ 2		00000000006022d4		0x412e8480276c8b44		1000000.07700000005
+ 3		00000000006022dc		0x412e8480245a1cac		1000000.07100000000
+ 4		00000000006022e4		0x412e84801db22d0e		1000000.05799999996
+ 5		00000000006022ec		0x412e84801fbe76c9		1000000.06200000003
+ 6		00000000006022f4		0x412e848016041893		1000000.04299999995
+ 7		00000000006022fc		0x412e84800ed91687		1000000.02899999998
+ 8		0000000000602304		0x412e848013f7ced9		1000000.03899999999
+ 9		000000000060230c		0x412e84801f3b645a		1000000.06099999999
+10		0000000000602314		0x412e84801b22d0e5		1000000.05299999996
+11		000000000060231c		0x412e84801916872b		1000000.04900000000
+12		0000000000602324		0x412e84801999999a		1000000.05000000005
+13		000000000060232c		0x412e84800d4fdf3b		1000000.02599999995
+14		0000000000602334		0x412e84802d0e5604		1000000.08799999999
+15		000000000060233c		0x412e848010e56042		1000000.03300000005
+
+Next the array will be sorted by pointers.
+
+The array after sorting by pointers is:
+Index		Physical Address		Hex Value			Decimal Value
+13		000000000060232c		0x412e84800d4fdf3b		1000000.02599999995
+ 7		00000000006022fc		0x412e84800ed91687		1000000.02899999998
+15		000000000060233c		0x412e848010e56042		1000000.03300000005
+ 1		00000000006022cc		0x412e8480126e978d		1000000.03599999996
+ 8		0000000000602304		0x412e848013f7ced9		1000000.03899999999
+ 6		00000000006022f4		0x412e848016041893		1000000.04299999995
+ 0		00000000006022c4		0x412e8480189374bc		1000000.04799999995
+11		000000000060231c		0x412e84801916872b		1000000.04900000000
+12		0000000000602324		0x412e84801999999a		1000000.05000000005
+10		0000000000602314		0x412e84801b22d0e5		1000000.05299999996
+ 4		00000000006022e4		0x412e84801db22d0e		1000000.05799999996
+ 9		000000000060230c		0x412e84801f3b645a		1000000.06099999999
+ 5		00000000006022ec		0x412e84801fbe76c9		1000000.06200000003
+ 3		00000000006022dc		0x412e8480245a1cac		1000000.07100000000
+ 2		00000000006022d4		0x412e8480276c8b44		1000000.07700000005
+14		0000000000602334		0x412e84802d0e5604		1000000.08799999999
+
+The array without sorting by pointers is still present:
+Index		Physical Address		Hex Value			Decimal Value
+ 0		00000000006022c4		0x412e8480189374bc		1000000.04799999995
+ 1		00000000006022cc		0x412e8480126e978d		1000000.03599999996
+ 2		00000000006022d4		0x412e8480276c8b44		1000000.07700000005
+ 3		00000000006022dc		0x412e8480245a1cac		1000000.07100000000
+ 4		00000000006022e4		0x412e84801db22d0e		1000000.05799999996
+ 5		00000000006022ec		0x412e84801fbe76c9		1000000.06200000003
+ 6		00000000006022f4		0x412e848016041893		1000000.04299999995
+ 7		00000000006022fc		0x412e84800ed91687		1000000.02899999998
+ 8		0000000000602304		0x412e848013f7ced9		1000000.03899999999
+ 9		000000000060230c		0x412e84801f3b645a		1000000.06099999999
+10		0000000000602314		0x412e84801b22d0e5		1000000.05299999996
+11		000000000060231c		0x412e84801916872b		1000000.04900000000
+12		0000000000602324		0x412e84801999999a		1000000.05000000005
+13		000000000060232c		0x412e84800d4fdf3b		1000000.02599999995
+14		0000000000602334		0x412e84802d0e5604		1000000.08799999999
+15		000000000060233c		0x412e848010e56042		1000000.03300000005
+
+Without knowing the purpose the driver received this array:
+1000000.04799999995
+1000000.03599999996
+1000000.07700000005
+1000000.07100000000
+1000000.05799999996
+1000000.06200000003
+1000000.04299999995
+1000000.02899999998
+1000000.03899999999
+1000000.06099999999
+1000000.05299999996
+1000000.04900000000
+1000000.05000000005
+1000000.02599999995
+1000000.08799999999
+1000000.03300000005
+
+The driver program will now return 0 to the operating system.  Have a nice day.
+
